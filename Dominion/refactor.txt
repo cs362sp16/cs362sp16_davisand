@@ -1,0 +1,7 @@
+I copypasted the first five cards from the switch statement to the bottom of the program file.
+
+Then I erased the case statement and reformatted each case into a function initialization.
+
+Afterwards I did a few quick checks to see what was actually being passed to each function and passed those variables to each of those card effect functions.
+
+I erased all that function data in the switch statement section and replaced each section of code under a case with a return of each respectively called function.
