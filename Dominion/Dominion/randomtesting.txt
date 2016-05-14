@@ -1,0 +1,18 @@
+assignment 3:
+
+The trick is to know what each card uses from all of the stuff it passes in,
+and then to randomize that and run each randomized property for the card 
+to attempt to trigger all of the different control statements in the function and cover every line of code.
+
+To write a comprehensive random tester you need to rewrite the initialization function to be a
+random initialization function so that many different game state cases can be fully tested against the given card function.
+The problem with this is that the initialization function is very complex and it itself needs to be tested to be sure
+it's initializing all of the testing parameters correctly.
+
+Once done with that, you need to be sure the card is actually doing what it needs to be doing.
+This would be done with asserts that check an expected value for an unaltered version of the game state
+against the value from what the function made it to be.
+
+Unit will have higher coverage, because you can systematically check off the requirements to access each bit of code
+in a function and then test it. Random testing can be better at detecting faults though since it can easily produce
+a more exhaustive array of tests.
